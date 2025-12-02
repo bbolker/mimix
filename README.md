@@ -32,7 +32,8 @@ Open Julia with `julia`, type `]` to enter Pkg mode, and then run the following 
 
 ```
 develop MicrobiomeMixedModels.jl
-add StatsBase DataFrames Distributions Mamba YAML RCall CSV ArgParse
+add StatsBase DataFrames Distributions YAML RCall CSV ArgParse
+add https://github.com/bbolker/Mamba.jl.git
 ```
 
 
